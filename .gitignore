@@ -1,0 +1,37 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+# the wrapper jar itself must stay in the repo
+!gradle/wrapper/gradle-wrapper.jar
+
+# other
+eclipse
+run
+run-data
+logs
+
+# Files from Forge MDK
+forge*changelog.txt
+
+# Local compile-only dependency.
+# SlashBlade:Resharped belongs to its author, it is not redistributed here.
+libs/
+
+# OS
+Thumbs.db
+.DS_Store

@@ -1,0 +1,64 @@
+assertion "bc_ctl.arg_max >= LINE_MAX" failed: file "xargs.c", line 512, function: main
+
+Welcome to Gradle 8.7!
+
+Here are the highlights of this release:
+ - Compiling and testing with Java 22
+ - Cacheable Groovy script compilation
+ - New methods in lazy collection properties
+
+For more details see https://docs.gradle.org/8.7/release-notes.html
+
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.7/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :
+Java: 17.0.12, JVM: 17.0.12+8-LTS-286 (Oracle Corporation), Arch: amd64
+
+> Task :compileJava
+Setting up MCP environment
+Initializing steps
+Executing steps
+ > Running 'downloadManifest'
+ > Running 'downloadJson'
+ > Running 'downloadClient'
+ > Running 'downloadServer'
+ > Running 'extractServer'
+ > Running 'downloadClientMappings'
+ > Running 'mergeMappings'
+ > Running 'stripClient'
+ > Running 'stripServer'
+ > Running 'merge'
+ > Running 'listLibraries'
+ > Running 'rename'
+Stopping at requested step: C:\Users\jinya\.gradle\caches\forge_gradle\mcp_repo\de\oceanlabs\mcp\mcp_config\1.20.1-20230612.114412\joined\rename\output.jar
+[00:30:21] [main/INFO]: Writing debug log file accesstransform.log
+[00:30:21] [main/INFO]: Access Transformer processor running version 8.2.14
+[00:30:21] [main/INFO]: Command line arguments [--inJar, C:\Users\jinya\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.4.13\forge-1.20.1-47.4.13-injected.jar, --outJar, C:\Users\jinya\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.4.13_mapped_official_1.20.1\forge-1.20.1-47.4.13_mapped_official_1.20.1.jar, --logFile, accesstransform.log, --atFile, C:\Users\jinya\WorkBuddy\2026-10-29-21-18-06\autocombo\build\_atJar_4\parent_at.cfg]
+[00:30:21] [main/INFO]: Reading from C:\Users\jinya\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.4.13\forge-1.20.1-47.4.13-injected.jar
+[00:30:21] [main/INFO]: Writing to C:\Users\jinya\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.4.13_mapped_official_1.20.1\forge-1.20.1-47.4.13_mapped_official_1.20.1.jar
+[00:30:21] [main/INFO]: Transformer file C:\Users\jinya\WorkBuddy\2026-10-29-21-18-06\autocombo\build\_atJar_4\parent_at.cfg
+[00:30:21] [main/WARN]: Found existing output jar C:\Users\jinya\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.4.13_mapped_official_1.20.1\forge-1.20.1-47.4.13_mapped_official_1.20.1.jar, overwriting
+[00:30:24] [main/INFO]: JAR transformation complete C:\Users\jinya\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.4.13_mapped_official_1.20.1\forge-1.20.1-47.4.13_mapped_official_1.20.1.jar
+Creating SRG -> MCP TSRG
+
+> Task :processResources
+> Task :classes
+> Task :jar
+> Task :downloadMcpConfig
+> Task :extractSrg
+> Task :createMcpToSrg
+> Task :reobfJar
+> Task :jarJar SKIPPED
+> Task :reobfJarJar SKIPPED
+> Task :assemble
+> Task :compileTestJava NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :test NO-SOURCE
+> Task :check UP-TO-DATE
+> Task :build
+
+BUILD SUCCESSFUL in 16m 48s
+7 actionable tasks: 7 executed
+EXIT=0
