@@ -35,3 +35,6 @@ libs/
 # OS
 Thumbs.db
 .DS_Store
+
+# build log
+build.log
